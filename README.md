@@ -98,4 +98,4 @@ Copyright (c) 2015 Patrick Hamann
 Licensed under the MIT license.
 
 ## Acknowledgements
-Heavily inspired by [Mark Daglesish](https://github.com/markdalgleish) [lanurd-scraper](https://github.com/markdalgleish/node-lanyrd-scraper)
+Heavily inspired by [Mark Daglesish](https://github.com/markdalgleish)'s [lanyrd-scraper](https://github.com/markdalgleish/node-lanyrd-scraper)
