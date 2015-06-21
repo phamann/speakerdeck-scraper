@@ -2,5 +2,5 @@
     "node": true,
     "undef": true,
     "unused": true,
-    "predef": [ "fetch" ]
+    "predef": [ "fetch", "it", "describe" ]
 }
