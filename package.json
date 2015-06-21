@@ -1,0 +1,29 @@
+{
+  "name": "speakerdeck-scraper",
+  "version": "0.0.1",
+  "description": "Speakerdeck.com scraper for Node.js",
+  "main": "lib/speakerdeck-scraper",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phamann/speakerdeck-scraper.git"
+  },
+  "keywords": [
+    "speakerdeck",
+    "scraper"
+  ],
+  "author": "Patrick Hamann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phamann/speakerdeck-scraper/issues"
+  },
+  "homepage": "https://github.com/phamann/speakerdeck-scraper",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "es6-promise": "^2.3.0",
+    "isomorphic-fetch": "^2.1.0",
+    "moment": "^2.10.3"
+  }
+}
