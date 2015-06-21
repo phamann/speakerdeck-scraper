@@ -40,24 +40,24 @@ The following properties are available on the returned `user` object:
 
 ```javascript
 {
-  'user': {
-    'id': String,
-    'url': String,
-    'name': String,
-    'avatar': String,
-    'bio': String
+  "user": {
+    "id": String,
+    "url": String,
+    "name": String,
+    "avatar": String,
+    "bio": String
   },
-  'talks': {
-    'pages': Number,
-    'page': Number,
-    'items': [
+  "talks": {
+    "pages": Number,
+    "page": Number,
+    "items": [
       {
-        'id': String,
-        'title': String,
-        'url': String,
-        'date': String,
-        'slides': Number,
-        'thumbnail': String
+        "id": String,
+        "title": String,
+        "url": String,
+        "date": String,
+        "slides": Number,
+        "thumbnail": String
       }
     ]
   }  
@@ -70,19 +70,19 @@ The following properties are available on the returned `talk` object:
 
 ```javascript
 {
-  'user': {
-    'id': String,
-    'url': String,
-    'name': String,
-    'avatar': String
+  "user": {
+    "id": String,
+    "url": String,
+    "name": String,
+    "avatar": String
   },
-  'description': String.
-  'date': String,
-  'stars': Number,
-  'category': String,
-  'views': Number,
-  'embed': String,
-  'download': String
+  "description": String.
+  "date": String,
+  "stars": Number,
+  "category": String,
+  "views": Number,
+  "embed": String,
+  "download": String
 }
 ```
 
