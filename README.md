@@ -1,4 +1,4 @@
-# speakerdeck-scraper
+# speakerdeck-scraper [![Build Status](https://travis-ci.org/phamann/speakerdeck-scraper.svg?branch=master)](https://travis-ci.org/phamann/speakerdeck-scraper)
 
 ### [Speaker Deck](http://speackerdeck.com) scraper for Node.js.
 
@@ -91,7 +91,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 Lint your code with `gulp lint` and run tests with `gulp test`
 
-All code is linted and tested automatically once pushed using [Travis CI](http://travis-ci.org/phamann/speakerdeck-scraper).
+All code is linted and tested automatically once pushed using [Travis CI](https://travis-ci.org/phamann/speakerdeck-scraper).
 
 ## License
 Copyright (c) 2015 Patrick Hamann 
