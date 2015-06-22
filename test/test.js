@@ -61,6 +61,7 @@ describe('Talk', function(){
             expect(data.date).to.be.a('string');
             expect(data.embed).to.be.a('string');
             expect(data.download).to.be.a('string');
+            expect(data.thumbnail).to.be.a('string');
             done();
         });
     });
