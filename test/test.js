@@ -37,3 +37,31 @@ describe('User', function(){
         });
     });
 });
+
+describe('Talk', function(){
+    it('should have user data', function(done){
+        speakerdeck.getTalk("patrickhamann/building-theguardian-dot-com").then(function(data){
+            expect(data.user).to.be.a('object');
+            expect(data.user.id).to.be.a('string');
+            expect(data.user.url).to.be.a('string');
+            expect(data.user.name).to.be.a('string');
+            expect(data.user.avatar).to.be.a('string');
+            done();
+        });
+    });
+    it('should have talk data', function(done){
+        speakerdeck.getTalk("patrickhamann/building-theguardian-dot-com").then(function(data){
+            expect(data.id).to.be.a('string');
+            expect(data.title).to.be.a('string');
+            expect(data.description).to.be.a('string');
+            expect(data.category).to.be.a('string');
+            // expect(data.url).to.be.a('string');
+            expect(data.stars).to.be.a('number');
+            expect(data.views).to.be.a('number');
+            expect(data.date).to.be.a('string');
+            expect(data.embed).to.be.a('string');
+            expect(data.download).to.be.a('string');
+            done();
+        });
+    });
+});
