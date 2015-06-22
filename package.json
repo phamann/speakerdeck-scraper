@@ -1,6 +1,6 @@
 {
   "name": "speakerdeck-scraper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Speakerdeck.com scraper for Node.js",
   "main": "lib/speakerdeck-scraper",
   "scripts": {
