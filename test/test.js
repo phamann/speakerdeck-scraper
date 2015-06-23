@@ -14,19 +14,18 @@ describe('User', function(){
         });
     });
     it('should have pagination data', function(done){
-        speakerdeck.getUser("patrickhamann").then(function(data){
-            expect(data.talks).to.be.a('object');
-            expect(data.talks.pages).to.be.a('number');
-            expect(data.talks.page).to.be.a('number');
+        speakerdeck.getUser("lara").then(function(data){
+            expect(data.pages).to.be.a('number');
+            expect(data.currentPage).to.be.a('number');
+            expect(data.nextPage).to.be.a('number');
             done();
         });
     });
     it('should have talk data', function(done){
         speakerdeck.getUser("patrickhamann").then(function(data){
-            var talk = data.talks.items[0];
-            expect(data.talks).to.be.a('object');
-            expect(data.talks.items).to.be.a('array');
-            expect(data.talks.items.length).to.not.equal(0);
+            var talk = data.talks[0];
+            expect(data.talks).to.be.a('array');
+            expect(data.talks.length).to.not.equal(0);
             expect(talk.id).to.be.a('string');
             expect(talk.title).to.be.a('string');
             expect(talk.url).to.be.a('string');
